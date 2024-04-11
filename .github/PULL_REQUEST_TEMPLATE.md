@@ -1,67 +1,106 @@
 # Descrição
-Adicionar aqui uma descrição do que foi feito.
-
-Ex.:
-Adiciona módulo de mensagens com remetente, destinatário e vinculado a uma solicitação.
+Fizemos três branchs, uma para soma, uma para multiplicação e uma para funcionalidades da calculadora
 
 ## Implementa
-Citar aqui o que foi implementado (Pode ser em forma de itens)
-
-Ex.:
-- Criação de mensagens
-- Listagem de mensagens por solicitação
-- Listagem de mensagens por usuários
-- Adição de subscription
-- Demais queries e mutations do nest-query
+- Funcionalide de soma
+- Funcionalide de subtração
+- Funcionalide de multiplicação
+- Funcionalide de raiz quadrada
+- Funcionalide de divisão
+- Funcionalide da calculadora
 
 ## Ajusta
-Caso na implementação, além da proposta principal da entrega, tenha sido feito algum ajuste, citar aqui.
-
-Ex.:
-- Módulo de Users para listar mensagens
-- Módulo de Solicitations para listar mensagens
+Ajustar a execução da calculadora no terminal/cmd
 
 ## Corrige
-Caso alguma correção tenha sido feita, citar aqui.
-
-Ex.:
 - Nada relevante
 
 ## Fecha
-Enviar aqui o link da Issue que está sendo fechada.
-
-Ex.:
-Issue 7 - https://github.com/felipehaertelsenac/atividade1-esii/issues/7
+- Não se aplica.
 
 ## Tipo de mudança (marcar as alternativas que se encaixam)
-- [ ] Nova Funcionalidade
-- [ ] Correções de bugs
-- [ ] Ajuste
 
-Ex.:
 - [x] Nova Funcionalidade
 - [ ] Correções de bugs
 - [x] Ajuste
 
 # Como foi testado?
-Explicar aqui como foi testada a entrega.
+A calculadora foi testada manualmente executando-a e realizando várias operações de adição, subtração, multiplicação, divisão e raiz quadrada com diferentes números.
 
-Ex.:
-Testes manuais no insomnia.
+# Soma
 
-### Exemplo:
-#### Criação de mensagem
-<img width="730" alt="image" src="https://user-images.githubusercontent.com/5839083/161609904-7cf45b9a-6758-4d9a-aae9-be9b187df8ae.png">
+```bash
+$ node calculator.js
+Calculadora
+1 - Soma
+2 - Subtração
+3 - Divisão
+4 - Multiplicação
+5 - Raiz quadrada
+Escolha uma opção: 1
+Digite o primeiro número: 2
+Digite o segundo número: 3
+O resultado é: 5
+```
+# Subtração
 
+```bash
+$ node calculator.js
+Calculadora
+1 - Soma
+2 - Subtração
+3 - Divisão
+4 - Multiplicação
+5 - Raiz quadrada
+Escolha uma opção: 2
+Digite o primeiro número: 5
+Digite o segundo número: 4
+O resultado é: 1
+```
+# Divisão
 
-#### Listagem de usuários com mensagens enviadas e recebidas
-<img width="733" alt="image" src="https://user-images.githubusercontent.com/5839083/161609656-64ea2fad-0d1d-48e9-a080-f4f4b9a5e778.png">
+```bash
+$ node calculator.js
+Calculadora
+1 - Soma
+2 - Subtração
+3 - Divisão
+4 - Multiplicação
+5 - Raiz quadrada
+Escolha uma opção: 3
+Digite o primeiro número: 10
+Digite o segundo número: 2
+O resultado é: 5
+```
+# Multiplicação
 
+```bash
+$ node calculator.js
+Calculadora
+1 - Soma
+2 - Subtração
+3 - Divisão
+4 - Multiplicação
+5 - Raiz quadrada
+Escolha uma opção: 4
+Digite o primeiro número: 5
+Digite o segundo número: 5
+O resultado é: 25
+```
+# Raiz quadrada
 
-#### Listando mensagens de solicitações
-<img width="703" alt="image" src="https://user-images.githubusercontent.com/5839083/161610024-ee53738a-0809-4b9f-a784-49796ee6a23f.png">
-
-
+```bash
+$ node calculator.js
+Calculadora
+1 - Soma
+2 - Subtração
+3 - Divisão
+4 - Multiplicação
+5 - Raiz quadrada
+Escolha uma opção: 5
+Digite um número: 121
+O resultado é: 11
+```
 
 Checklist:
 - [x] Meu código segue os padrões do repositório, como gitmoji e commits organizados e com mensagens adequadas
