@@ -1,5 +1,5 @@
 # Descrição
-Fizemos três branchs, uma para soma, uma para multiplicação e uma para funcionalidades da calculadora
+Fizemos seis branchs, uma para soma, uma para subtração, uma para multiplicação, uma para raiz quadrada, uma para divisão e uma para funcionalidades da calculadora.
 
 ## Implementa
 - Funcionalide de soma
